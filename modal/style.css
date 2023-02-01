@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin-inline: auto;
+}
+.container{
+    position: relative;
+    border: 2px solid rgb(141, 141, 192);
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.container p{
+    margin-top: 1rem;
+}
+.btn{
+    display: flex;
+    margin-inline: auto;
+    width: 15%;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    border: 2px solid rgb(141, 141, 192);
+    background-color: white;
+    color: rgb(141, 141, 192);
+    margin-top: 1rem;
+}
+.modal{
+    margin-inline: auto;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+}
+.showmodal{
+    visibility: visible;
+    opacity: 1;
+}
+.modal-bg{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30%;
+    margin-inline: auto;
+    margin-top: 1.1rem;
+    gap: 0.5rem;
+    position: relative;
+}
+.closemodal{
+    position: absolute;
+    right: 1.1rem;
+    top: 0.9rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.modal-bg label{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.submitbtn{
+    background-color: rgb(52, 52, 105);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-top: 0.3rem;
+}
